@@ -7,10 +7,13 @@ import image from "@astrojs/image";
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
+import react from "@astrojs/react";
+
+// https://astro.build/config
 export default defineConfig({
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), astroImageTools],
+  }), astroImageTools, react()],
   output: "server",
   adapter: vercel()
 });
