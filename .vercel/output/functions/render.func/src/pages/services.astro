@@ -1,0 +1,109 @@
+---
+import BookSection from '../components/BookSection.astro';
+import Callout from '../components/Callout.astro';
+import CircularComponents from '../components/CircularComponents.astro';
+
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+import { Image } from '@astrojs/image/components';
+
+---
+
+<Layout title="Welcome to TechExpress.">
+	<main>
+	
+	<Header image="url(../../public/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg)" mainTitle="Welcome to Tech" specialTitle="Express" tagline="We build web/mobile apps that scale at affordable pricing"/>
+
+		<Callout/>
+
+		<section id="services">
+	
+			<div class="content">
+				<h3 class="bold">What we do</h3>
+			<p>
+				Our goal is to provide your business with the highest quality software applications available. We utilize the most cutting-edge technologies to design, develop, and deploy your software, so you can rest assured that your applications are reliable, efficient, and secure.
+			</p>
+
+            <!-- <p class="big-text">
+                We understand the importance of meeting your business goals and objectives, and our team of experienced professionals is dedicated to providing you with the best quality applications that will meet and exceed your expectations.
+            </p> -->
+
+			</div>
+
+		</section>
+
+
+        <h4>Services</h4>
+		<section class="section">
+			<div class="section-image">
+				<Image width={150} height={220} alt="services-abstract-image" src={'../../public/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg'}/>
+				
+			</div>
+			<div class="content light">
+				<h3>Software Development</h3>
+				<p>
+					Our sole aim is to provide you with quality applications for your business. 
+We use modern day cutting-edge technologies to design, develop and deploy your software.
+				</p>
+			</div>
+		</section>
+
+        <section class="section">
+			<div class="section-image">
+				<Image width={150} height={220} alt="services-abstract-image" src={'../../public/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg'}/>
+				
+			</div>
+			<div class="content light">
+				<h3>Mobile App Development</h3>
+				<p>
+					Our sole aim is to provide you with quality applications for your business. 
+We use modern day cutting-edge technologies to design, develop and deploy your software.
+				</p>
+			</div>
+		</section>
+
+		<CircularComponents heading="Core Values"/>
+		<BookSection/>
+
+	</main>
+
+	<Footer/>
+</Layout>
+
+
+<style>
+
+	section#services{
+		background-color: rgba(57, 207, 224, 0.22);
+	}
+
+
+    section#services .content p{
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 1.5;
+    }
+
+	section .content h3{
+		font-weight: 500;
+	}
+
+
+    section.section{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        padding-bottom: 0;
+		
+
+    }
+
+
+    h4{
+        padding: 20px 20px;
+		font-size: 24px;
+		font-weight: 300;
+    }
+    
+</style>

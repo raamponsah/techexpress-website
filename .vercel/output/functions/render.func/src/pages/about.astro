@@ -1,0 +1,100 @@
+---
+import BookSection from '../components/BookSection.astro';
+import Callout from '../components/Callout.astro';
+import CircularComponents from '../components/CircularComponents.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+import { Image, Picture } from '@astrojs/image/components';
+
+---
+
+<Layout title="Welcome to TechExpress.">
+	<main>
+	
+	<Header image="url(../../public/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg)" mainTitle="We are a Software Company" specialTitle="" tagline="We express your business processes through quality software"/>
+
+		<Callout/>
+
+		<section id="who-we-are">
+            <div class="section-image">
+                <Image width={200} height={300} alt="services-abstract-image" src={'../../public/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg'}/>
+            </div>
+            <div class="content">
+                <h3>Who we are</h3>
+                <p>
+                    Our sole aim is to provide you with quality applications for your business. 
+                    We use modern day cutting-edge technologies to design, develop and deploy your software.
+                </p>
+            </div>
+		</section>
+
+
+		
+		    <CircularComponents heading="Core Values"/>
+	
+
+        <section id="about-detail">
+			<p>
+				Our sole aim is to provide you with quality applications for your business.  We use modern day cutting-edge technologies to design, develop and deploy your software.
+</p>
+<ul>
+    <li>Software Development</li>
+    <li>Mobile App Development</li>
+    <li>Desktop Development</li>
+</ul>
+		</section>
+
+
+
+<BookSection/>
+
+	</main>
+
+	<Footer/>
+</Layout>
+
+
+
+
+<style>
+    section#who-we-are h3{
+        font-weight: 400;
+    }
+    section#who-we-are{
+    min-width: 100%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: -8px;
+    
+    
+    }
+
+    section#who-we-are .content{
+        padding: 20px;
+        line-height: 1.4;
+    }
+
+    ul{
+        padding: 10px;
+        list-style: none;
+        margin:0;
+        padding: 0;
+        
+    }
+
+    ul li {
+        font-size: 22px;
+    }
+
+    section#about-detail{
+        font-weight: 200;
+        padding: 1.5rem;
+        background-color: rgba(234, 230, 230, 0.82);
+     
+    }
+</style>
+
