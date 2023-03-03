@@ -1,0 +1,59 @@
+---
+import type { Props } from "astro";
+import CalendarIcon from "./CalendarIcon.astro";
+import RightArrowIcon from "./RightArrowIcon.astro";
+
+const {color, text, RightIcon, LeftIcon, p=0, px=0, py=0} = Astro.props as Props
+---
+
+<button class:list={['button secondary']}>
+
+   <CalendarIcon/>    
+    <span>{text}</span>
+    <RightArrowIcon/>
+    </button>
+
+
+    <style define:vars={{p, px, py}}>
+
+button{
+    appearance: none;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+}
+
+
+button span{
+    margin: 0 1rem;
+}
+
+button{
+    padding: var(--p);
+}
+
+button{
+    margin: 10px 0;
+    padding: var(--py) var(--px);
+    color:white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+.primary{
+    background-color: rgba(0, 0, 0, 0.82);
+
+}
+
+.secondary{
+    background-color: rgba(14, 192, 221, 0.72);
+
+}
+
+    </style>

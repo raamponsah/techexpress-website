@@ -1,0 +1,41 @@
+---
+import type { Props } from "astro";
+
+const {label, image} = Astro.props as Props
+
+---
+
+<div class="circle-with-text">
+    <div class="circle"></div>
+<h5>{label}</h5>
+</div>
+
+
+<style define:vars={{image}}>
+    .circle-with-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    color: white;
+  
+}
+
+.circle-with-text h5{
+    text-decoration: uppercase;
+    font-weight: 400;
+}
+
+ .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: var(--image);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+</style>
