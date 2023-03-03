@@ -88,21 +88,6 @@ section.callout{
 }
 
 
-section#services{
-    
-    min-width: 100%;
-    min-height: 280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
-    background:rgba(0, 0, 0, 0.82);
-    color: white;
-    /* padding: 1rem; */
-
-
-}
-
 
 section .content{
     font-weight: 100;
