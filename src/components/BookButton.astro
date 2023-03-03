@@ -2,6 +2,7 @@
 import type { Props } from "astro";
 import CalendarIcon from "./CalendarIcon.astro";
 import RightArrowIcon from "./RightArrowIcon.astro";
+import HintText from "./react/HintText";
 
 const {color, text, RightIcon, LeftIcon, p=0, px=0, py=0} = Astro.props as Props
 ---
@@ -13,7 +14,7 @@ const {color, text, RightIcon, LeftIcon, p=0, px=0, py=0} = Astro.props as Props
     <RightArrowIcon/>
     </button>
 
-
+    <HintText/>
     <style define:vars={{p, px, py}}>
 
 button{
@@ -57,3 +58,5 @@ button{
 }
 
     </style>
+
+

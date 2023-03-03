@@ -1,0 +1,148 @@
+<button id="hamburger-menu">
+    <svg  width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.25 12.25H36.75M5.25 21H36.75M5.25 29.75H36.75" stroke="#0EC0DD" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        
+</button>
+
+
+<style>
+    button{
+    /* margin: 10px 0; */
+    padding: var(--py) var(--px);
+    color:white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    appearance: none;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+</style>
+
+
+
+
+<script>
+    const btn = document.querySelector('button') as HTMLButtonElement;
+    const menu = [
+        {
+            name: 'Home',
+            link: '/'
+        },
+        {
+            name: 'About',
+            link: '/about'
+        },
+        {
+            name: 'Services',
+            link: '/services'
+        },
+    ]
+
+    const content = document.createElement('div');
+    content.classList.add('content');
+    content.style.display = 'none';
+    content.style.position = 'fixed';
+    content.style.top = '0';
+    content.style.left = '0';
+    content.style.width = '100%';
+    content.style.height = '100%';
+    content.style.zIndex = '5000';
+    content.style.backgroundColor = '#000000';
+    content.style.opacity = '0.9';
+    content.style.display = 'flex';
+    content.style.justifyContent = 'center';
+    content.style.alignItems = 'center';
+    content.style.flexDirection = 'column';
+
+    const ul = document.createElement('ul');
+    ul.style.listStyle = 'none';
+    ul.style.padding = '0';
+    ul.style.margin = '0';
+    ul.style.display = 'flex';
+    ul.style.flexDirection = 'column';
+    ul.style.justifyContent = 'center';
+    ul.style.alignItems = 'center';
+    ul.style.textAlign = 'center';
+    ul.style.fontSize = '2rem';
+    ul.style.color = '#fff';
+    ul.style.textTransform = 'uppercase';
+    ul.style.letterSpacing = '0.2rem';
+    ul.style.textShadow = '0 0 1rem #000';
+
+
+
+
+    
+    const overlay = document.createElement('div');
+    const closeBtn = document.createElement('button');
+    closeBtn.innerHTML = `<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z" stroke="#0EC0DD" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+    closeBtn.style.position = 'absolute';
+    closeBtn.style.top = '0';
+    closeBtn.style.right = '0';
+    closeBtn.style.zIndex = '5001';
+    closeBtn.style.backgroundColor = 'transparent';
+    closeBtn.style.border = 'none';
+    closeBtn.style.outline = 'none';
+    closeBtn.style.cursor = 'pointer';
+    closeBtn.style.padding = '1rem';
+    closeBtn.style.margin = '1rem';
+    closeBtn.style.display = 'none';
+
+    overlay.appendChild(closeBtn);
+
+
+
+    overlay.classList.add('overlay');
+    overlay.style.display = 'none';
+    overlay.style.backgroundColor = '#000000';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.zIndex = '5000';
+    overlay.style.opacity = '0.9';
+
+    document.body.appendChild(overlay);
+
+    overlay.appendChild(content);
+    content.appendChild(ul);
+    menu.map((item)=>{
+        const li = document.createElement('li');
+        li.style.margin = '1rem 0';
+        li.innerHTML = `<a href="${item.link}" class="menu-item">${item.name}</a>`;
+        ul.appendChild(li);
+    })
+
+
+
+
+
+
+    btn.addEventListener('click',()=>{
+        console.log("first")
+        overlay.style.display = 'block';
+
+        content.appendChild(ul);
+
+        closeBtn.style.display = 'block';
+
+        
+
+    })
+
+
+    closeBtn.addEventListener('click',()=>{
+        overlay.style.display = 'none';
+        closeBtn.style.display = 'none';
+    })
+</script>
