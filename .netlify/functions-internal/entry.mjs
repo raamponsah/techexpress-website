@@ -13,7 +13,7 @@ import React, { createElement } from 'react';
 import ReactDOM from 'react-dom/server';
 import sharp$1 from 'sharp';
 import { jsx } from 'react/jsx-runtime';
-/* empty css                                 */import 'http-cache-semantics';
+/* empty css                                 *//* empty css                                 */import 'http-cache-semantics';
 import 'node:fs/promises';
 import 'node:os';
 import 'node:path';
@@ -21,7 +21,7 @@ import 'node:url';
 import 'magic-string';
 import 'node:stream';
 import 'image-size';
-/* empty css                                 *//* empty css                                    *//* empty css                                 */import { compile } from 'path-to-regexp';
+/* empty css                                    *//* empty css                                 */import { compile } from 'path-to-regexp';
 
 /** Returns the function bound to the given object. */
 const __function_bind = Function.bind.bind(Function.call);
@@ -6968,6 +6968,85 @@ const $$Layout = createComponent(async ($$result, $$props, $$slots) => {
 	</body></html>`;
 }, "/Users/raphaelamponsah/Projects/winds/src/layouts/Layout.astro");
 
+const $$Astro$4 = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/index.astro");
+const $$Index = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  Astro2.self = $$Index;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-7VBSJFBM" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-7VBSJFBM">
+	
+	${renderComponent($$result, "Header", $$Header, { "image": "url(../src/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-7VBSJFBM" })}
+
+		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-7VBSJFBM" })}
+
+		<section id="about" class="astro-7VBSJFBM">
+			<div class="overlay astro-7VBSJFBM"></div>
+			<div class="content astro-7VBSJFBM">
+				<h3 class="bold astro-7VBSJFBM">About</h3>
+			<p class="bold astro-7VBSJFBM">
+				We are an innovative software company, based in Accra, Ghana. We build software that scale with your business processes. 
+			</p>
+
+			</div>
+			<div class="section-footer astro-7VBSJFBM">
+				<a href="/about" class="astro-7VBSJFBM">
+					<svg width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-7VBSJFBM">
+						<rect width="50" height="39" fill="black" class="astro-7VBSJFBM"></rect>
+						<path d="M30.43 12.93L36.5 19L30.43 25.07M19.5 19H36.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-7VBSJFBM"></path>
+						</svg>
+						
+					</a>
+			</div>
+		</section>
+
+
+		<section id="index-services" class="astro-7VBSJFBM">
+			<div class="section-image astro-7VBSJFBM">
+				<img${addAttribute(200, "width")}${addAttribute(200, "height")} alt="services-abstract-image"${addAttribute("../src/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg", "src")} class="astro-7VBSJFBM">
+				
+			</div>
+			<div class="content light astro-7VBSJFBM">
+				<h3 class="astro-7VBSJFBM">What we do</h3>
+				<p class="astro-7VBSJFBM">
+					Our sole aim is to provide you with quality applications for your business. 
+We use modern day cutting-edge technologies to design, develop and deploy your software.
+				</p>
+			</div>
+		
+			<div class="section-footer astro-7VBSJFBM">
+				<a href="/services" class="astro-7VBSJFBM">
+					<svg width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-7VBSJFBM">
+						<rect width="50" height="39" fill="#0EC0DD" fill-opacity="0.9" class="astro-7VBSJFBM"></rect>
+						<path d="M27.43 13.93L33.5 20L27.43 26.07M16.5 20H33.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-7VBSJFBM"></path>
+						</svg>
+						
+					</a>
+			</div>
+		</section>
+
+		<div class=" astro-7VBSJFBM">
+			${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-7VBSJFBM" })}
+		</div>
+
+	
+
+${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-7VBSJFBM" })}
+
+	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-7VBSJFBM" })}` })}
+
+
+`;
+}, "/Users/raphaelamponsah/Projects/winds/src/pages/index.astro");
+
+const $$file$2 = "/Users/raphaelamponsah/Projects/winds/src/pages/index.astro";
+const $$url$2 = "";
+
+const _page1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Index,
+  file: $$file$2,
+  url: $$url$2
+}, Symbol.toStringTag, { value: 'Module' }));
+
 function resolveSize(transform) {
   if (transform.width && transform.height) {
     return transform;
@@ -7135,9 +7214,9 @@ async function getPicture(params) {
   };
 }
 
-const $$Astro$4 = createAstro("/Users/raphaelamponsah/Projects/winds/node_modules/@astrojs/image/components/Image.astro");
+const $$Astro$3 = createAstro("/Users/raphaelamponsah/Projects/winds/node_modules/@astrojs/image/components/Image.astro");
 const $$Image = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Image;
   const { loading = "lazy", decoding = "async", ...props } = Astro2.props;
   if (props.alt === void 0 || props.alt === null) {
@@ -7147,9 +7226,9 @@ const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead($$result)}<img${spreadAttributes(attrs)}${addAttribute(loading, "loading")}${addAttribute(decoding, "decoding")}>`;
 }, "/Users/raphaelamponsah/Projects/winds/node_modules/@astrojs/image/components/Image.astro");
 
-const $$Astro$3 = createAstro("/Users/raphaelamponsah/Projects/winds/node_modules/@astrojs/image/components/Picture.astro");
+const $$Astro$2 = createAstro("/Users/raphaelamponsah/Projects/winds/node_modules/@astrojs/image/components/Picture.astro");
 const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Picture;
   const {
     src,
@@ -7200,85 +7279,6 @@ A future release of @astrojs/image may throw a build error when "alt" text is mi
 The "alt" attribute holds a text description of the image, which isn't mandatory but is incredibly useful for accessibility. Set to an empty string (alt="") if the image is not a key part of the content (it's decoration or a tracking pixel).
 `);
 }
-
-const $$Astro$2 = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/index.astro");
-const $$Index = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
-  Astro2.self = $$Index;
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-3ZHIAETS" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-3ZHIAETS">
-	
-	${renderComponent($$result, "Header", $$Header, { "image": "url(../src/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-3ZHIAETS" })}
-
-		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-3ZHIAETS" })}
-
-		<section id="about" class="astro-3ZHIAETS">
-			<div class="overlay astro-3ZHIAETS"></div>
-			<div class="content astro-3ZHIAETS">
-				<h3 class="bold astro-3ZHIAETS">About</h3>
-			<p class="bold astro-3ZHIAETS">
-				We are an innovative software company, based in Accra, Ghana. We build software that scale with your business processes. 
-			</p>
-
-			</div>
-			<div class="section-footer astro-3ZHIAETS">
-				<a href="/about" class="astro-3ZHIAETS">
-					<svg width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-3ZHIAETS">
-						<rect width="50" height="39" fill="black" class="astro-3ZHIAETS"></rect>
-						<path d="M30.43 12.93L36.5 19L30.43 25.07M19.5 19H36.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-3ZHIAETS"></path>
-						</svg>
-						
-					</a>
-			</div>
-		</section>
-
-
-		<section id="index-services" class="astro-3ZHIAETS">
-			<div class="section-image astro-3ZHIAETS">
-				${renderComponent($$result, "Image", $$Image, { "width": 200, "height": 200, "alt": "services-abstract-image", "src": "../src/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg", "class": "astro-3ZHIAETS" })}
-				
-			</div>
-			<div class="content light astro-3ZHIAETS">
-				<h3 class="astro-3ZHIAETS">What we do</h3>
-				<p class="astro-3ZHIAETS">
-					Our sole aim is to provide you with quality applications for your business. 
-We use modern day cutting-edge technologies to design, develop and deploy your software.
-				</p>
-			</div>
-		
-			<div class="section-footer astro-3ZHIAETS">
-				<a href="/services" class="astro-3ZHIAETS">
-					<svg width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-3ZHIAETS">
-						<rect width="50" height="39" fill="#0EC0DD" fill-opacity="0.9" class="astro-3ZHIAETS"></rect>
-						<path d="M27.43 13.93L33.5 20L27.43 26.07M16.5 20H33.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-3ZHIAETS"></path>
-						</svg>
-						
-					</a>
-			</div>
-		</section>
-
-		<div class=" astro-3ZHIAETS">
-			${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-3ZHIAETS" })}
-		</div>
-
-	
-
-${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-3ZHIAETS" })}
-
-	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-3ZHIAETS" })}` })}
-
-
-`;
-}, "/Users/raphaelamponsah/Projects/winds/src/pages/index.astro");
-
-const $$file$2 = "/Users/raphaelamponsah/Projects/winds/src/pages/index.astro";
-const $$url$2 = "";
-
-const _page1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
-  __proto__: null,
-  default: $$Index,
-  file: $$file$2,
-  url: $$url$2
-}, Symbol.toStringTag, { value: 'Module' }));
 
 const $$Astro$1 = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/services.astro");
 const $$Services = createComponent(async ($$result, $$props, $$slots) => {
@@ -7411,7 +7411,7 @@ const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 const pageMap = new Map([["node_modules/@astrojs/image/dist/endpoint.js", _page0],["src/pages/index.astro", _page1],["src/pages/services.astro", _page2],["src/pages/about.astro", _page3],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),Object.assign({"name":"@astrojs/react","clientEntrypoint":"@astrojs/react/client.js","serverEntrypoint":"@astrojs/react/server.js","jsxImportSource":"react"}, { ssr: _renderer1 }),];
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":[],"scripts":[],"routeData":{"type":"endpoint","route":"/_image","pattern":"^\\/_image$","segments":[[{"content":"_image","dynamic":false,"spread":false}]],"params":[],"component":"node_modules/@astrojs/image/dist/endpoint.js","pathname":"/_image","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/index.e0bff73a.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/services.86c6a54b.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/services","type":"page","pattern":"^\\/services\\/?$","segments":[[{"content":"services","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/services.astro","pathname":"/services","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/about.1ab1777e.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.astro","pathname":"/about","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false,"isExperimentalContentCollections":false,"contentDir":"file:///Users/raphaelamponsah/Projects/winds/src/content/"},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","@astrojs/react/client.js":"client.8da6b5f2.js","/astro/hoisted.js?q=0":"hoisted.a1e9fa4b.js","astro:scripts/before-hydration.js":""},"assets":["/assets/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.cf27ed95.jpg","/assets/about.1ab1777e.css","/assets/index.e0bff73a.css","/assets/services.86c6a54b.css","/assets/about.b8e3b00f.css","/client.8da6b5f2.js","/favicon.svg","/images/amanz-E2IJDsYvfZI-unsplash.jpg","/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg","/images/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg","/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg","/images/faris-mohammed-d30sszrW7Vw-unsplash.jpg","/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg","/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg","/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg","/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg","/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg","/images/sam-moghadam-khamseh-VwHzE0aFQfY-unsplash.jpg","/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg","/images/simone-hutsch-8FUD82rlJxs-unsplash.jpg","/images/team-nocoloco-OX1TXahR7Ng-unsplash.jpg","/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg","/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg","/images/tzepang-ngaa-_OerZ0dWow0-unsplash.jpg"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":[],"scripts":[],"routeData":{"type":"endpoint","route":"/_image","pattern":"^\\/_image$","segments":[[{"content":"_image","dynamic":false,"spread":false}]],"params":[],"component":"node_modules/@astrojs/image/dist/endpoint.js","pathname":"/_image","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/index.ded0c7b1.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/services.86c6a54b.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/services","type":"page","pattern":"^\\/services\\/?$","segments":[[{"content":"services","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/services.astro","pathname":"/services","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/about.1ab1777e.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.astro","pathname":"/about","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false,"isExperimentalContentCollections":false,"contentDir":"file:///Users/raphaelamponsah/Projects/winds/src/content/"},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","@astrojs/react/client.js":"client.8da6b5f2.js","/astro/hoisted.js?q=0":"hoisted.a1e9fa4b.js","astro:scripts/before-hydration.js":""},"assets":["/assets/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.cf27ed95.jpg","/assets/about.1ab1777e.css","/assets/index.ded0c7b1.css","/assets/services.86c6a54b.css","/assets/about.b8e3b00f.css","/client.8da6b5f2.js","/favicon.svg","/images/amanz-E2IJDsYvfZI-unsplash.jpg","/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg","/images/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg","/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg","/images/faris-mohammed-d30sszrW7Vw-unsplash.jpg","/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg","/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg","/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg","/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg","/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg","/images/sam-moghadam-khamseh-VwHzE0aFQfY-unsplash.jpg","/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg","/images/simone-hutsch-8FUD82rlJxs-unsplash.jpg","/images/team-nocoloco-OX1TXahR7Ng-unsplash.jpg","/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg","/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg","/images/tzepang-ngaa-_OerZ0dWow0-unsplash.jpg"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });
