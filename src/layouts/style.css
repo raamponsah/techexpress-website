@@ -39,32 +39,8 @@ section:not(.callout){
     position: relative;
 }
 
-section#about .overlay{
-    width: 100%;
-    min-height: 300px;
-    position: absolute;
-    top:0;
-    left: 0;
-    background-color: rgba(14, 192, 221, 0.72);
-    z-index: 1000;
-
-}
-
-section#about{
-    background-image: url('../../public/images/simone-hutsch-8FUD82rlJxs-unsplash.jpg');
-}
-
-section#about .content{
-    color: white;
-    z-index: 2000;
-    padding: 0 2.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 section .section-footer a{
-
     z-index: 4000;
     padding: 1rem;
     position: absolute;
@@ -73,25 +49,10 @@ section .section-footer a{
    
 }
 
-section#about .content h3{
-    font-weight: 400;
-}
 
 
-section#index-services{
-    background-image: url('../../public/images/alexander-andrews-5ZQXZ4Z5Z0o-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1.25rem;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.5;
-}
+
+
 section.callout{
     padding: 1rem 2.5rem;
     display: flex;
