@@ -6877,12 +6877,12 @@ const $$CircularComponents = createComponent(async ($$result, $$props, $$slots) 
   const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$CircularComponents;
   const { heading } = Astro2.props;
-  return renderTemplate`${maybeRenderHead($$result)}<section id="circular-components" class="dark-background astro-ZQ5KSHHJ">
-    <h3 class="astro-ZQ5KSHHJ">${heading}</h3>
-    <div class="circles-set astro-ZQ5KSHHJ">
-     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../../public/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg)", "label": "Quality", "class": "astro-ZQ5KSHHJ" })}
-     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../../public/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg)", "label": "Innovation", "class": "astro-ZQ5KSHHJ" })}
-     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../../public/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg)", "label": "Integrity", "class": "astro-ZQ5KSHHJ" })}
+  return renderTemplate`${maybeRenderHead($$result)}<section id="circular-components" class="dark-background astro-B7HBSCN7">
+    <h3 class="astro-B7HBSCN7">${heading}</h3>
+    <div class="circles-set astro-B7HBSCN7">
+     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../src/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg)", "label": "Quality", "class": "astro-B7HBSCN7" })}
+     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../src/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg)", "label": "Innovation", "class": "astro-B7HBSCN7" })}
+     ${renderComponent($$result, "CircleWithText", $$CircleWithText, { "image": "url(../src/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg)", "label": "Integrity", "class": "astro-B7HBSCN7" })}
         
     </div>
 </section>`;
@@ -7205,26 +7205,26 @@ const $$Astro$2 = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/i
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Index;
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-6PVBX75M" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-6PVBX75M">
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-3ZHIAETS" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-3ZHIAETS">
 	
-	${renderComponent($$result, "Header", $$Header, { "image": "url(../../public/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-6PVBX75M" })}
+	${renderComponent($$result, "Header", $$Header, { "image": "url(../src/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-3ZHIAETS" })}
 
-		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-6PVBX75M" })}
+		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-3ZHIAETS" })}
 
-		<section id="about" class="astro-6PVBX75M">
-			<div class="overlay astro-6PVBX75M"></div>
-			<div class="content astro-6PVBX75M">
-				<h3 class="bold astro-6PVBX75M">About</h3>
-			<p class="bold astro-6PVBX75M">
+		<section id="about" class="astro-3ZHIAETS">
+			<div class="overlay astro-3ZHIAETS"></div>
+			<div class="content astro-3ZHIAETS">
+				<h3 class="bold astro-3ZHIAETS">About</h3>
+			<p class="bold astro-3ZHIAETS">
 				We are an innovative software company, based in Accra, Ghana. We build software that scale with your business processes. 
 			</p>
 
 			</div>
-			<div class="section-footer astro-6PVBX75M">
-				<a href="/about" class="astro-6PVBX75M">
-					<svg width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-6PVBX75M">
-						<rect width="50" height="39" fill="black" class="astro-6PVBX75M"></rect>
-						<path d="M30.43 12.93L36.5 19L30.43 25.07M19.5 19H36.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-6PVBX75M"></path>
+			<div class="section-footer astro-3ZHIAETS">
+				<a href="/about" class="astro-3ZHIAETS">
+					<svg width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-3ZHIAETS">
+						<rect width="50" height="39" fill="black" class="astro-3ZHIAETS"></rect>
+						<path d="M30.43 12.93L36.5 19L30.43 25.07M19.5 19H36.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-3ZHIAETS"></path>
 						</svg>
 						
 					</a>
@@ -7232,39 +7232,39 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
 		</section>
 
 
-		<section id="index-services" class="astro-6PVBX75M">
-			<div class="section-image astro-6PVBX75M">
-				${renderComponent($$result, "Image", $$Image, { "width": 200, "height": 200, "alt": "services-abstract-image", "src": "../../public/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg", "class": "astro-6PVBX75M" })}
+		<section id="index-services" class="astro-3ZHIAETS">
+			<div class="section-image astro-3ZHIAETS">
+				${renderComponent($$result, "Image", $$Image, { "width": 200, "height": 200, "alt": "services-abstract-image", "src": "../src/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg", "class": "astro-3ZHIAETS" })}
 				
 			</div>
-			<div class="content light astro-6PVBX75M">
-				<h3 class="astro-6PVBX75M">What we do</h3>
-				<p class="astro-6PVBX75M">
+			<div class="content light astro-3ZHIAETS">
+				<h3 class="astro-3ZHIAETS">What we do</h3>
+				<p class="astro-3ZHIAETS">
 					Our sole aim is to provide you with quality applications for your business. 
 We use modern day cutting-edge technologies to design, develop and deploy your software.
 				</p>
 			</div>
 		
-			<div class="section-footer astro-6PVBX75M">
-				<a href="/services" class="astro-6PVBX75M">
-					<svg width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-6PVBX75M">
-						<rect width="50" height="39" fill="#0EC0DD" fill-opacity="0.9" class="astro-6PVBX75M"></rect>
-						<path d="M27.43 13.93L33.5 20L27.43 26.07M16.5 20H33.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-6PVBX75M"></path>
+			<div class="section-footer astro-3ZHIAETS">
+				<a href="/services" class="astro-3ZHIAETS">
+					<svg width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-3ZHIAETS">
+						<rect width="50" height="39" fill="#0EC0DD" fill-opacity="0.9" class="astro-3ZHIAETS"></rect>
+						<path d="M27.43 13.93L33.5 20L27.43 26.07M16.5 20H33.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" class="astro-3ZHIAETS"></path>
 						</svg>
 						
 					</a>
 			</div>
 		</section>
 
-		<div class=" astro-6PVBX75M">
-			${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-6PVBX75M" })}
+		<div class=" astro-3ZHIAETS">
+			${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-3ZHIAETS" })}
 		</div>
 
 	
 
-${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-6PVBX75M" })}
+${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-3ZHIAETS" })}
 
-	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-6PVBX75M" })}` })}
+	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-3ZHIAETS" })}` })}
 
 
 `;
@@ -7284,17 +7284,17 @@ const $$Astro$1 = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/s
 const $$Services = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Services;
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-3DJQE7JP" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-3DJQE7JP">
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-PB6VYD5T" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-PB6VYD5T">
 	
-	${renderComponent($$result, "Header", $$Header, { "image": "url(../../public/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-3DJQE7JP" })}
+	${renderComponent($$result, "Header", $$Header, { "image": "url(../src/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg)", "mainTitle": "Welcome to Tech", "specialTitle": "Express", "tagline": "We build web/mobile apps that scale at affordable pricing", "class": "astro-PB6VYD5T" })}
 
-		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-3DJQE7JP" })}
+		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-PB6VYD5T" })}
 
-		<section id="services" class="astro-3DJQE7JP">
+		<section id="services" class="astro-PB6VYD5T">
 	
-			<div class="content astro-3DJQE7JP">
-				<h3 class="bold astro-3DJQE7JP">What we do</h3>
-			<p class="astro-3DJQE7JP">
+			<div class="content astro-PB6VYD5T">
+				<h3 class="bold astro-PB6VYD5T">What we do</h3>
+			<p class="astro-PB6VYD5T">
 				Our goal is to provide your business with the highest quality software applications available. We utilize the most cutting-edge technologies to design, develop, and deploy your software, so you can rest assured that your applications are reliable, efficient, and secure.
 			</p>
 
@@ -7307,39 +7307,39 @@ const $$Services = createComponent(async ($$result, $$props, $$slots) => {
 		</section>
 
 
-        <h4 class="astro-3DJQE7JP">Services</h4>
-		<section class="section astro-3DJQE7JP">
-			<div class="section-image astro-3DJQE7JP">
-				${renderComponent($$result, "Image", $$Image, { "width": 150, "height": 220, "alt": "services-abstract-image", "src": "../../public/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg", "class": "astro-3DJQE7JP" })}
+        <h4 class="astro-PB6VYD5T">Services</h4>
+		<section class="section astro-PB6VYD5T">
+			<div class="section-image astro-PB6VYD5T">
+				${renderComponent($$result, "Image", $$Image, { "width": 150, "height": 220, "alt": "services-abstract-image", "src": "../src/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg", "class": "astro-PB6VYD5T" })}
 				
 			</div>
-			<div class="content light astro-3DJQE7JP">
-				<h3 class="astro-3DJQE7JP">Software Development</h3>
-				<p class="astro-3DJQE7JP">
+			<div class="content light astro-PB6VYD5T">
+				<h3 class="astro-PB6VYD5T">Software Development</h3>
+				<p class="astro-PB6VYD5T">
 					Our sole aim is to provide you with quality applications for your business. 
 We use modern day cutting-edge technologies to design, develop and deploy your software.
 				</p>
 			</div>
 		</section>
 
-        <section class="section astro-3DJQE7JP">
-			<div class="section-image astro-3DJQE7JP">
-				${renderComponent($$result, "Image", $$Image, { "width": 150, "height": 220, "alt": "services-abstract-image", "src": "../../public/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg", "class": "astro-3DJQE7JP" })}
+        <section class="section astro-PB6VYD5T">
+			<div class="section-image astro-PB6VYD5T">
+				${renderComponent($$result, "Image", $$Image, { "width": 150, "height": 220, "alt": "services-abstract-image", "src": "../src/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg", "class": "astro-PB6VYD5T" })}
 				
 			</div>
-			<div class="content light astro-3DJQE7JP">
-				<h3 class="astro-3DJQE7JP">Mobile App Development</h3>
-				<p class="astro-3DJQE7JP">
+			<div class="content light astro-PB6VYD5T">
+				<h3 class="astro-PB6VYD5T">Mobile App Development</h3>
+				<p class="astro-PB6VYD5T">
 					Our sole aim is to provide you with quality applications for your business. 
 We use modern day cutting-edge technologies to design, develop and deploy your software.
 				</p>
 			</div>
 		</section>
 
-		${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-3DJQE7JP" })}
-		${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-3DJQE7JP" })}
+		${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-PB6VYD5T" })}
+		${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-PB6VYD5T" })}
 
-	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-3DJQE7JP" })}` })}`;
+	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-PB6VYD5T" })}` })}`;
 }, "/Users/raphaelamponsah/Projects/winds/src/pages/services.astro");
 
 const $$file$1 = "/Users/raphaelamponsah/Projects/winds/src/pages/services.astro";
@@ -7356,19 +7356,19 @@ const $$Astro = createAstro("/Users/raphaelamponsah/Projects/winds/src/pages/abo
 const $$About = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$About;
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-NTUSJXRM" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-NTUSJXRM">
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Welcome to TechExpress.", "class": "astro-IPQXVNTA" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<main class="astro-IPQXVNTA">
 	
-	${renderComponent($$result, "Header", $$Header, { "image": "url(../../public/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg)", "mainTitle": "We are a Software Company", "specialTitle": "", "tagline": "We express your business processes through quality software", "class": "astro-NTUSJXRM" })}
+	${renderComponent($$result, "Header", $$Header, { "image": "url(../src/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg)", "mainTitle": "We are a Software Company", "specialTitle": "", "tagline": "We express your business processes through quality software", "class": "astro-IPQXVNTA" })}
 
-		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-NTUSJXRM" })}
+		${renderComponent($$result, "Callout", $$Callout, { "class": "astro-IPQXVNTA" })}
 
-		<section id="who-we-are" class="astro-NTUSJXRM">
-            <div class="section-image astro-NTUSJXRM">
-                ${renderComponent($$result, "Image", $$Image, { "width": 200, "height": 382, "alt": "services-abstract-image", "src": "../../public/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg", "class": "astro-NTUSJXRM" })}
+		<section id="who-we-are" class="astro-IPQXVNTA">
+            <div class="section-image astro-IPQXVNTA">
+                ${renderComponent($$result, "Image", $$Image, { "width": 200, "height": 382, "alt": "services-abstract-image", "src": "../src/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg", "class": "astro-IPQXVNTA" })}
             </div>
-            <div class="content astro-NTUSJXRM">
-                <h3 class="astro-NTUSJXRM">Who we are</h3>
-                <p class="astro-NTUSJXRM">
+            <div class="content astro-IPQXVNTA">
+                <h3 class="astro-IPQXVNTA">Who we are</h3>
+                <p class="astro-IPQXVNTA">
                     At 8bytes in Accra, we are a team of software experts dedicated to building custom web and mobile applications that transform your business. Our agile approach and cutting-edge technology ensure your success, every time. Choose 8bytes and experience the difference.
                 </p>
             </div>
@@ -7376,21 +7376,21 @@ const $$About = createComponent(async ($$result, $$props, $$slots) => {
 
 
 		
-		    ${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-NTUSJXRM" })}
+		    ${renderComponent($$result, "CircularComponents", $$CircularComponents, { "heading": "Core Values", "class": "astro-IPQXVNTA" })}
 	
 
-        <section id="about-detail" class="astro-NTUSJXRM">
-			<p class="astro-NTUSJXRM">
+        <section id="about-detail" class="astro-IPQXVNTA">
+			<p class="astro-IPQXVNTA">
 				We are more than just a software company - we are your partner in innovation. Our team of experienced developers, project managers, and designers work closely with you to understand your unique needs and deliver tailored solutions that meet your objectives.</p> 
                 
-            <p style="margin-top:10px" class="astro-NTUSJXRM"> At 8bytes, we specialize in mobile app development, web app development, and desktop development. We use modern technologies and agile methodologies to ensure high-quality and timely delivery, every time. Let us help you take your business to the next level with our expert services.
+            <p style="margin-top:10px" class="astro-IPQXVNTA"> At 8bytes, we specialize in mobile app development, web app development, and desktop development. We use modern technologies and agile methodologies to ensure high-quality and timely delivery, every time. Let us help you take your business to the next level with our expert services.
 
             </p>
 		</section>
 
-${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-NTUSJXRM" })}
+${renderComponent($$result, "BookSection", $$BookSection, { "class": "astro-IPQXVNTA" })}
 
-	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-NTUSJXRM" })}` })}
+	</main>${renderComponent($$result, "Footer", $$Footer, { "class": "astro-IPQXVNTA" })}` })}
 
 
 
@@ -7411,7 +7411,7 @@ const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 const pageMap = new Map([["node_modules/@astrojs/image/dist/endpoint.js", _page0],["src/pages/index.astro", _page1],["src/pages/services.astro", _page2],["src/pages/about.astro", _page3],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),Object.assign({"name":"@astrojs/react","clientEntrypoint":"@astrojs/react/client.js","serverEntrypoint":"@astrojs/react/server.js","jsxImportSource":"react"}, { ssr: _renderer1 }),];
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":[],"scripts":[],"routeData":{"type":"endpoint","route":"/_image","pattern":"^\\/_image$","segments":[[{"content":"_image","dynamic":false,"spread":false}]],"params":[],"component":"node_modules/@astrojs/image/dist/endpoint.js","pathname":"/_image","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.ff899534.css","assets/index.38748216.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.ff899534.css","assets/services.bdee664d.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/services","type":"page","pattern":"^\\/services\\/?$","segments":[[{"content":"services","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/services.astro","pathname":"/services","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.ff899534.css","assets/about.2b079325.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.astro","pathname":"/about","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false,"isExperimentalContentCollections":false,"contentDir":"file:///Users/raphaelamponsah/Projects/winds/src/content/"},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","@astrojs/react/client.js":"client.8da6b5f2.js","/astro/hoisted.js?q=0":"hoisted.a1e9fa4b.js","astro:scripts/before-hydration.js":""},"assets":["/assets/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.cf27ed95.jpg","/assets/about.2b079325.css","/assets/index.38748216.css","/assets/services.bdee664d.css","/assets/about.ff899534.css","/client.8da6b5f2.js","/favicon.svg","/images/amanz-E2IJDsYvfZI-unsplash.jpg","/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg","/images/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg","/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg","/images/faris-mohammed-d30sszrW7Vw-unsplash.jpg","/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg","/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg","/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg","/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg","/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg","/images/sam-moghadam-khamseh-VwHzE0aFQfY-unsplash.jpg","/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg","/images/simone-hutsch-8FUD82rlJxs-unsplash.jpg","/images/team-nocoloco-OX1TXahR7Ng-unsplash.jpg","/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg","/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg","/images/tzepang-ngaa-_OerZ0dWow0-unsplash.jpg"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":[],"scripts":[],"routeData":{"type":"endpoint","route":"/_image","pattern":"^\\/_image$","segments":[[{"content":"_image","dynamic":false,"spread":false}]],"params":[],"component":"node_modules/@astrojs/image/dist/endpoint.js","pathname":"/_image","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/index.e0bff73a.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/services.86c6a54b.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/services","type":"page","pattern":"^\\/services\\/?$","segments":[[{"content":"services","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/services.astro","pathname":"/services","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about.b8e3b00f.css","assets/about.1ab1777e.css"],"scripts":[{"type":"inline","value":"const i=document.querySelector(\"button\"),y=[{name:\"Home\",link:\"/\"},{name:\"About\",link:\"/about\"},{name:\"Services\",link:\"/services\"}],e=document.createElement(\"div\");e.classList.add(\"content\");e.style.display=\"none\";e.style.position=\"fixed\";e.style.top=\"0\";e.style.left=\"0\";e.style.width=\"100%\";e.style.height=\"100%\";e.style.zIndex=\"5000\";e.style.backgroundColor=\"#000000\";e.style.opacity=\"0.9\";e.style.display=\"flex\";e.style.justifyContent=\"center\";e.style.alignItems=\"center\";e.style.flexDirection=\"column\";const l=document.createElement(\"ul\");l.style.listStyle=\"none\";l.style.padding=\"0\";l.style.margin=\"0\";l.style.display=\"flex\";l.style.flexDirection=\"column\";l.style.justifyContent=\"center\";l.style.alignItems=\"center\";l.style.textAlign=\"center\";l.style.fontSize=\"2rem\";l.style.color=\"#fff\";l.style.textTransform=\"uppercase\";l.style.letterSpacing=\"0.2rem\";l.style.textShadow=\"0 0 1rem #000\";const n=document.createElement(\"div\"),t=document.createElement(\"button\");t.innerHTML=`<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0475 25.9525L25.9525 16.0475M25.9525 25.9525L16.0475 16.0475M15.75 38.5H26.25C35 38.5 38.5 35 38.5 26.25V15.75C38.5 7 35 3.5 26.25 3.5H15.75C7 3.5 3.5 7 3.5 15.75V26.25C3.5 35 7 38.5 15.75 38.5Z\" stroke=\"#0EC0DD\" stroke-opacity=\"0.9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n`;t.style.position=\"absolute\";t.style.top=\"0\";t.style.right=\"0\";t.style.zIndex=\"5001\";t.style.backgroundColor=\"transparent\";t.style.border=\"none\";t.style.outline=\"none\";t.style.cursor=\"pointer\";t.style.padding=\"1rem\";t.style.margin=\"1rem\";t.style.display=\"none\";n.appendChild(t);n.classList.add(\"overlay\");n.style.display=\"none\";n.style.backgroundColor=\"#000000\";n.style.position=\"fixed\";n.style.top=\"0\";n.style.left=\"0\";n.style.width=\"100%\";n.style.height=\"100%\";n.style.zIndex=\"5000\";n.style.opacity=\"0.9\";document.body.appendChild(n);n.appendChild(e);e.appendChild(l);y.map(o=>{const s=document.createElement(\"li\");s.style.margin=\"1rem 0\",s.innerHTML=`<a href=\"${o.link}\" class=\"menu-item\">${o.name}</a>`,l.appendChild(s)});i.addEventListener(\"click\",()=>{console.log(\"first\"),n.style.display=\"block\",e.appendChild(l),t.style.display=\"block\"});t.addEventListener(\"click\",()=>{n.style.display=\"none\",t.style.display=\"none\"});\n"}],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.astro","pathname":"/about","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false,"isExperimentalContentCollections":false,"contentDir":"file:///Users/raphaelamponsah/Projects/winds/src/content/"},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","@astrojs/react/client.js":"client.8da6b5f2.js","/astro/hoisted.js?q=0":"hoisted.a1e9fa4b.js","astro:scripts/before-hydration.js":""},"assets":["/assets/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.cf27ed95.jpg","/assets/about.1ab1777e.css","/assets/index.e0bff73a.css","/assets/services.86c6a54b.css","/assets/about.b8e3b00f.css","/client.8da6b5f2.js","/favicon.svg","/images/amanz-E2IJDsYvfZI-unsplash.jpg","/images/andreas-forsberg-R_GN1I76XjM-unsplash.jpg","/images/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg","/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg","/images/faris-mohammed-d30sszrW7Vw-unsplash.jpg","/images/jesse-echevarria-FKs9bUFekHQ-unsplash.jpg","/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg","/images/milad-fakurian-UYgrVfIhBec-unsplash.jpg","/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg","/images/sam-moghadam-khamseh-KJ241ZAOYwU-unsplash.jpg","/images/sam-moghadam-khamseh-VwHzE0aFQfY-unsplash.jpg","/images/sam-moghadam-khamseh-baII27W6z7k-unsplash.jpg","/images/simone-hutsch-8FUD82rlJxs-unsplash.jpg","/images/team-nocoloco-OX1TXahR7Ng-unsplash.jpg","/images/thom-bradley-A6qNzfJXRGQ-unsplash.jpg","/images/tyler-lastovich-3shfnfzdFVc-unsplash.jpg","/images/tzepang-ngaa-_OerZ0dWow0-unsplash.jpg"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });
