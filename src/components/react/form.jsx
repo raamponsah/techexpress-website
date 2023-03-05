@@ -1,6 +1,5 @@
 
 import '../../layouts/form.css'
-import sendMail from '../../scripts/email'
 
 export default function BookingForm(){
 
@@ -11,7 +10,7 @@ export default function BookingForm(){
     }
 
     return <>
-        <form name="contact" method="POST"  netlify netlify-honeypot>
+        <form name="contact" method="POST" >
 
 <div class="input-holder">
     <label for="fullname">Fullname</label>
