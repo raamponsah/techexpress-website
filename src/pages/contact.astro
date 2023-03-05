@@ -29,35 +29,17 @@ import { Image } from '@astrojs/image/components';
 		</section>
 
         <section id="booking-form">
-			<form name="contact" method="POST" data-netlify="true">
-
-				<div class="input-holder">
-					<label for="fullname">Fullname</label>
-					<input type="text" name="fullname" id="fullname">
-				</div>
-				
-				<div class="input-holder">
-					<label for="fullname">Email</label>
-					<input type="email" placeholder="you@example.com" required name="email" id="email">
-				</div>
-				
-				<div class="input-holder">
-					<label for="phone">Phone</label>
-					<input type="text" required name="phone" id="phone">
-				</div>
-				
-				<div class="input-holder">
-					<label for="date">Date and Time for meet</label>
-					<input type="datetime-local" name="date" id="date">
-				</div>
-				
-				<div class="message">
-					<label for="message">Additional Message</label>
-					<textarea name="message" id="message" cols="30" rows="10" ></textarea>
-				</div>
-				
-				<button class="secondary" type="submit">Submit</button>
-				</form>
+			<form name="contact" netlify>
+				<p>
+				  <label>Name <input type="text" name="name" /></label>
+				</p>
+				<p>
+				  <label>Email <input type="email" name="email" /></label>
+				</p>
+				<p>
+				  <button type="submit">Send</button>
+				</p>
+			  </form>
         </section>
 
 
