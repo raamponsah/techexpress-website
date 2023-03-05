@@ -29,7 +29,9 @@ import { Image } from '@astrojs/image/components';
 		</section>
 
         <section id="booking-form">
-			<form name="contact" netlify>
+			<form name="contact" data-netlify="true"
+			data-netlify-honeypot="bot-field"
+			name="feedback">
 				<p>
 				  <label>Name <input type="text" name="name" /></label>
 				</p>
