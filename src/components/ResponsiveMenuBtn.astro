@@ -124,6 +124,7 @@
     menu.map((item)=>{
         const li = document.createElement('li');
         li.style.margin = '1rem 0';
+        li.style.fontSize = '12px';
         li.innerHTML = `<a href="${item.link}" class="menu-item">${item.name}</a>`;
         ul.appendChild(li);
     })
