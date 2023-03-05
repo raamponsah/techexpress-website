@@ -40,4 +40,5 @@ export default function BookingForm(){
 <button class="secondary" type="submit">Submit</button>
 </form>
     </>
+    
 }
