@@ -17,7 +17,9 @@
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
 		"astro": "^2.0.17",
+		"astro-compress": "^1.1.35",
 		"astro-imagetools": "^0.8.1",
+		"nodemailer": "^6.9.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"sharp": "^0.31.3"

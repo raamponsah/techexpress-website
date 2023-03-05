@@ -18,8 +18,6 @@ body{
     min-width: 100%;
 }
 
-
-
 section{
     display: flex;;
     flex-direction: column;
@@ -30,9 +28,8 @@ section{
 }
 
 section:not(.callout){
-   
-    min-height: 300px;
-    padding-top:2rem;
+    /* min-height: 300px; */
+    /* padding-top:2rem; */
     line-height: 1.5;
     font-weight: 500;
     font-size: 20px;
@@ -50,22 +47,16 @@ section .section-footer a{
 }
 
 
-
-
-
 section.callout{
     padding: 1rem 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     font-weight: 300;
     font-size: 18px;
 
 }
-
-
 
 section .content{
     font-weight: 100;
@@ -76,13 +67,7 @@ section .content{
     padding-left: 1rem;
     margin-bottom: 10px;
     
-
-
 }
-
-
-
-
 
 
 .telephone{

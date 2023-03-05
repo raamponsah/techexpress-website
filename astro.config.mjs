@@ -15,10 +15,13 @@ import netlify from "@astrojs/netlify/functions";
 // https://astro.build/config
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
 export default defineConfig({
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), astroImageTools, react()],
+  }), astroImageTools, react(), compress()],
   output: "server",
   adapter: netlify()
 });
