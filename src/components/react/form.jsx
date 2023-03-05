@@ -10,7 +10,7 @@ export default function BookingForm(){
     }
 
     return <>
-        <form name="contact" method="POST" >
+        <form name="contact" method="POST" netlify>
 
 <div class="input-holder">
     <label for="fullname">Fullname</label>
