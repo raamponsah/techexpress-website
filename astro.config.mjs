@@ -21,7 +21,7 @@ import compress from "astro-compress";
 export default defineConfig({
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), astroImageTools, react(), compress()],
+  }), astroImageTools, react()],
   output: "server",
   adapter: netlify()
 });
