@@ -1,64 +1,24 @@
 ---
-import BookSection from '../components/BookSection.astro';
-import Callout from '../components/Callout.astro';
-import CircularComponents from '../components/CircularComponents.astro';
-import Feeback from '../components/Feeback.astro';
-
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import BookingForm from '../components/react/form';
 import Layout from '../layouts/Layout.astro';
-import { Image } from '@astrojs/image/components';
-
+import Card from '../components/Card.astro';
 ---
 
-<Layout title="Book: 8Bytes.">
+<Layout title="Welcome to Astro.">
 	<main>
-	
-	<Header image="url(/images/daniele-franchi-cLxX7ssQfp8-unsplash.jpg)" mainTitle="Book us today" specialTitle="" tagline="Transform Your Business with Innovative Software"/>
 
-		<section class="booking-section">
-	
-			<div>
-				<h3>Book a meeting with us</h3>
+		<form name="contact" netlify>
 			<p>
-				We would be happy to schedule a consultation to discuss your software development needs and how our team can help bring your ideas to life. Thank you for considering 8Bytes for your software development needs.
+			  <label>Name <input type="text" name="name" /></label>
 			</p>
-
-			</div>
-
-		</section>
-
-        <section id="booking-form">
-			<Feeback/>
-        </section>
-
-
-		<CircularComponents heading="Core Values"/>
-		<BookSection/>
+			<p>
+			  <label>Email <input type="email" name="email" /></label>
+			</p>
+			<p>
+			  <button type="submit">Send</button>
+			</p>
+		  </form>
 
 	</main>
-
-	<Footer/>
 </Layout>
 
 
-<style>
-	section h3{
-		font-weight: 500;
-	}
-
-    section{
-        display: flex;
-        flex-direction: row;
-        padding:  5px 20px;
-        font-size: 16px;
-        font-weight: 200;
-    }
-
-	section p{
-		font-size: 16px;
-        font-weight: 300;
-	}
-
-</style>
